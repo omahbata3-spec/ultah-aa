@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Happy Birthday ❤️</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #ff9a9e, #fad0c4);
+      text-align: center;
+      font-family: Arial, sans-serif;
+      color: #fff;
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    h1 {
+      font-size: 35px;
+      animation: fadeIn 2s ease-in-out;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 20px;
+      animation: fadeIn 4s ease-in-out;
+      line-height: 1.6;
+    }
+    .heart {
+      font-size: 50px;
+      animation: beat 1s infinite;
+      margin: 20px 0;
+    }
+    /* Gaya untuk Video */
+    .video-container {
+      margin-top: 30px;
+      animation: fadeIn 5s ease-in-out;
+    }
+    video {
+      width: 85%; /* Agar tidak terlalu lebar di layar HP */
+      max-width: 400px;
+      border: 5px solid rgba(255, 255, 255, 0.5);
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    }
+    
+    @keyframes beat {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.3); }
+      100% { transform: scale(1); }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Happy Birthday Sayangku 🎉</h1>
+  <div class="heart">❤️</div>
+
+  <p>
+    Selamat ulang tahun yaa 🥺<br>
+    Semoga kamu selalu sehat, panjang umur, dan bahagia terus.<br><br>
+    
+    Maaf ya kalau aku masih banyak kurangnya...<br>
+    Tapi aku selalu berusaha jadi yang terbaik buat kamu 🤍<br><br>
+    
+    Makasih udah hadir di hidup aku,<br>
+    semoga kita bisa terus bareng yaa 💕
+  </p>
+
+  <div class="video-container">
+    <video controls>
+      <source src="ultah.mp4" type="video/mp4">
+      Browser kamu tidak mendukung pemutaran video ini.
+    </video>
+  </div>
+
+</body>
+</html>
